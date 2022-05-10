@@ -1,0 +1,46 @@
+// variables
+@import '../config/_variables'
+
+.weather
+    position: relative
+    width: 100%
+    height: auto
+    transition: .3s
+    .weather__content
+        position: relative
+        width: 100%
+        height: auto
+        display: flex
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        background: radial-gradient(100% 71111.11% at 100% 50%, rgba(0, 0, 0, 0) 0%, #1d1d1dcf 10.32%, #1d1d1dcf 89.76%, rgba(0, 0, 0, 0) 100%)
+        @media #{$sm}
+            background-color: #1D1D1D
+        .txt
+            position: relative
+            ul
+                list-style: none
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                @media #{$sm}
+                    padding: 10px 0px
+                li
+                    display: inline-block
+                    padding: 10px 10px
+                    color: white
+                    @media #{$lg}
+                        padding: 15px 20px
+                    @media #{$sm}
+                        padding: 2px 5px
+                    p
+                        display: flex
+                        height: 26px
+                        align-items: center
+                        svg
+                            margin-right: 10px
+                        span
+                            margin-left: 8px
+                            @media #{$sm}
+                                margin-left: 3px

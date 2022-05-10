@@ -1,0 +1,98 @@
+// variables
+@import '../config/_variables'
+
+.images-mars
+    position: relative
+    width: 100%
+    height: auto
+    padding: 4% 4%
+    @media #{$sm}
+        padding: 10% 4%
+    .images-mars__content
+        width: 100%
+        max-width: 1200px
+        margin: auto
+        @media #{$lg}
+            max-width: 1900px
+        .txt
+            padding: 3% 0%
+            color: white
+            @media #{$sm}
+                padding: 3% 0%
+            p
+                width: 100%
+                max-width: 870px
+                @media #{$sm}
+                    padding: 3% 0%
+        .gallery
+            margin-top: 2%
+            @media #{$sm}
+                margin-top: 3vw
+        .btn-filter
+            position: relative
+            display: flex
+            width: 100%
+            overflow: hidden
+            flex-wrap: wrap
+            align-items: center
+            margin-bottom: 30px
+            button
+                margin-right: 10px
+                margin-top: 10px
+            .input-mars
+                margin-top: 10px
+                p
+                    margin-right: 10px
+        .title-rover
+            p
+                color: #bababa
+                strong
+                    text-transform: capitalize!important
+                    
+
+.modal
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0
+    left: 0
+    overflow: hidden
+    z-index: 1000
+    .modal__content
+        position: relative
+        width: 100%
+        height: 100vh
+        background: #000000bd
+        -webkit-backdrop-filter: saturate(180%) blur(3px)
+        backdrop-filter: saturate(180%) blur(3px)
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        padding: 15px
+        .btn-close
+            position: absolute
+            top: 0
+            width: 100%
+            display: flex
+            justify-content: flex-end
+            padding: 2%
+            a
+                cursor: pointer
+                svg
+                    width: 40px
+                    height: 40px
+                    @media #{$lg}
+                        width: 50px
+                        height: 50px
+                    @media #{$sm}
+                        width: 60px
+                        height: 60px
+        img
+            width: 100%
+            max-width: 900px
+            border-radius: 6px
+
+        
+        
+        

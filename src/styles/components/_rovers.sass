@@ -1,0 +1,40 @@
+// variables
+@import '../config/_variables'
+
+.rovers
+    position: relative
+    width: 100%
+    height: auto
+    background: rgb(224,224,224)
+    background: linear-gradient(360deg, rgba(224,224,224,1) 0%, #4f4f4f 82%, #242424 100%)
+    .rovers__content
+        position: relative
+        width: 100%
+        height: auto
+        overflow: hidden
+        .txt
+            position: relative
+            padding: 6% 3%
+            width: 100%
+            max-width: 1200px
+            margin: auto
+            color: #ffffff
+            @media #{$lg}
+                max-width: 1600px
+            @media #{$sm}
+                padding: 18% 4%
+            ul
+                list-style: none
+                width: 100%
+                max-width: 700px
+                li
+                    p
+                        a
+                            color: #0c1734
+                            &:hover
+                                color: #152f78
+        iframe
+            height: 67vh
+            @media #{$sm}
+                height: 400px
+        

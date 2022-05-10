@@ -1,0 +1,40 @@
+// variables
+@import '../config/_variables'
+
+footer
+    position: relative
+    width: 100%
+    height: auto
+    .footer__content
+        background: black
+        height: 50px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0px 40px
+        overflow: hidden
+        @media #{$sm}
+            flex-direction: column
+            align-items: center
+            height: 90px 
+            justify-content: center
+            padding: 0px 20px
+        p
+            color: white
+            font-size: 14px
+            text-align: center
+            a
+                color: gray
+                text-decoration: none
+                font-weight: 500
+        div 
+            display: flex
+            height: 30px
+            align-items: center
+            p
+                margin-right: 10px
+                text-align: center
+            a
+                svg
+                    position: relative
+                    top: 3px

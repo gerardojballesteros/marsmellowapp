@@ -1,0 +1,130 @@
+// variables
+@import '../config/_variables'
+
+header
+    position: fixed
+    width: 100%
+    height: auto
+    z-index: 999
+    @media #{$sm}
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 100%
+        padding: 0px 20px
+    nav
+        position: relative
+        width: 100%
+        height: 50px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0% 3%
+        @media #{$sm}
+            padding: 0% 0%
+            height: 50px
+        .logo-marsmellow
+            position: relative
+            top: 3px   
+            a
+                img
+                    width: 100%
+                    max-width: 130px
+                    @media #{$sm}
+                        max-width: 130px
+        ul
+            list-style: none
+            display: flex
+            height: 40px
+            align-items: center
+                
+            li
+                display: inline-block
+                padding: 0vw 1vw
+                a
+                    color: white
+                    text-decoration: none
+                    .iconify
+                        position: relative
+                        top: 3px
+    .burger
+        position: relative 
+        top: 3px
+        display: none
+        @media #{$sm}
+            display: block
+        svg
+            width: 30px
+            height: 30px
+    .bg-panel-nav
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100vh
+        background: #00000054
+        backdrop-filter: blur(3px)
+        -webkit-backdrop-filter: blur(3px)
+        transition: .3s ease
+        .panel-nav
+            position: absolute
+            top: 0
+            right: 0
+            padding-right: 30px
+            width: 70%
+            height: 100vh
+            background: black
+            z-index: 10
+            background: #000000e7
+            backdrop-filter: blur(20px)
+            -webkit-backdrop-filter: blur(20px)
+            transition: .3s ease
+            ul
+                position: relative
+                margin-top: 70px
+                list-style: none
+                display: flex
+                height: auto
+                align-items: flex-end
+                flex-direction: column
+                li
+                    display: inline-block
+                    padding: 4px 4px
+                    a
+                        color: white
+                        text-decoration: none
+                        font-size: 20px!important
+                        .iconify
+                            position: relative
+                            top: 3px
+            .btn-close
+                position: absolute
+                top: 0
+                width: 100%
+                display: flex
+                justify-content: flex-end
+                padding: 10px
+                a
+                    cursor: pointer
+                    svg
+                        width: 40px
+                        height: 40px
+                        
+        
+
+                    
+.header-bg
+    background: rgba(0,0,0,0.8)
+    -webkit-backdrop-filter: saturate(180%) blur(20px)
+    backdrop-filter: saturate(180%) blur(20px)
+    transition: .4s
+   
+
+.nav-desk
+    @media #{$sm}
+        display: none
+
+.nav-mobile
+    display: none
+    @media #{$sm}
+        display: flex
