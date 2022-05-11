@@ -46,7 +46,7 @@ const ImageMars = () => {
                     <article className="txt">
                         <h4>Mars as <strong>never seen before.</strong></h4>
                         <p>Through the Marsmellow app you will be able to see 
-                            the latest images photographed on mars by the spirit, opportunity and curiosity rovers. 
+                            the latest images photographed on mars by the spirit, opportunity, curiosity and perseverance rovers. 
                             Remember that these images are updated by the image bank of the <b>National Aeronautics Administration (Nasa)</b></p>
                     </article>
                     <div className="btn-filter">
