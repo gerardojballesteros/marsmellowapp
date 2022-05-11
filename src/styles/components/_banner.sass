@@ -17,6 +17,7 @@
         display: flex
         align-items: center
         @media #{$sm}
+            height: 500px
             background-position-x: 70%
         @media #{$lg}
             height: 900px
@@ -29,6 +30,8 @@
             background: linear-gradient(180deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0) 100%)
             @media #{$lg}
                 height: 900px
+            @media #{$sm}
+                height: 500px
         .txt
             position: relative
             z-index: 1
