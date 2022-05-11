@@ -10,7 +10,7 @@ const Banner = () => {
                     <h1>Welcome to the best <br />
                     and most <strong>Martian photography <br />
                     web application</strong> of all time.</h1>
-                    <span>In cooperation with the <p> National Aeronautics Administration</p> <Icon id="nasa" icon="simple-icons:nasa" className="nasa-icon" color="white" width="5vw" /> </span>
+                    <span>In cooperation with the <p> National Aeronautics and Space Administration</p> <Icon id="nasa" icon="simple-icons:nasa" className="nasa-icon" color="white" width="5vw" /> </span>
                 </article>
             </div>
         </section>

@@ -47,7 +47,7 @@ const ImageMars = () => {
                         <h4>Mars as <strong>never seen before.</strong></h4>
                         <p>Through the Marsmellow app you will be able to see 
                             the latest images photographed on mars by the spirit, opportunity, curiosity and perseverance rovers. 
-                            Remember that these images are updated by the image bank of the <b>National Aeronautics Administration (Nasa)</b></p>
+                            Remember that these images are updated by the image bank of the <b>National Aeronautics and Space Administration (Nasa)</b></p>
                     </article>
                     <div className="btn-filter">
                         <button className="btn-white" type="button" onClick={()=> setRovers('spirit')}>Spirit</button>
