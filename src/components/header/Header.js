@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, {useRef, useEffect, useState} from 'react'
+import logo from '../../assets/logo-marsmellow.svg'
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import 'animate.css';
@@ -30,7 +31,7 @@ export const Header = () => {
             <nav className="nav-desk">
                 <div className="logo-marsmellow">
                     <Link to="/">
-                        <img src="https://res.cloudinary.com/underverse-clothing/image/upload/dpr_2.0,q_auto:best/v1651965315/Marsmellow/logo/logo-marsmellow-text-white.png" alt="" />
+                        <img src={logo} alt="" />
                     </Link>
                 </div>
                 <ul>
@@ -50,7 +51,7 @@ export const Header = () => {
             <nav className="nav-mobile">
                 <div className="logo-marsmellow">
                     <Link to="/">
-                        <img src="https://res.cloudinary.com/underverse-clothing/image/upload/dpr_2.0,q_auto:best/v1651965315/Marsmellow/logo/logo-marsmellow-text-white.png" alt="" />
+                        <img src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="burger">

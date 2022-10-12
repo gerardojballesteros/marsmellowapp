@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eb998cc.css",
-    "main.js": "/static/js/main.0e762c5c.js",
+    "main.css": "/static/css/main.bdee0108.css",
+    "main.js": "/static/js/main.b63d53d9.js",
+    "static/media/banner-marsmellow.jpg": "/static/media/banner-marsmellow.075a7e00f694b4904c10.jpg",
+    "static/media/logo-marsmellow.svg": "/static/media/logo-marsmellow.6ab2354468d59cb4d6aad30f118d03a0.svg",
     "index.html": "/index.html",
-    "main.4eb998cc.css.map": "/static/css/main.4eb998cc.css.map",
-    "main.0e762c5c.js.map": "/static/js/main.0e762c5c.js.map"
+    "main.bdee0108.css.map": "/static/css/main.bdee0108.css.map",
+    "main.b63d53d9.js.map": "/static/js/main.b63d53d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eb998cc.css",
-    "static/js/main.0e762c5c.js"
+    "static/css/main.bdee0108.css",
+    "static/js/main.b63d53d9.js"
   ]
 }
